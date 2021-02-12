@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hendry Khoza on Hendry&#39;s Website</title>
+    <link>/authors/hendry-khoza/</link>
+    <description>Recent content in Hendry Khoza on Hendry&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.hendry.xyz/&#34;&gt;Hendry Khoza&lt;/a&gt; &lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 29 Jan 2021 00:23:34 +0000</lastBuildDate><atom:link href="/authors/hendry-khoza/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Download Videos on Udemy Using youtube-dl</title>
+      <link>/posts/2021/how_to_download_udemy_videos/</link>
+      <pubDate>Fri, 29 Jan 2021 00:23:34 +0000</pubDate>
+      
+      <guid>/posts/2021/how_to_download_udemy_videos/</guid>
+      <description>&lt;p&gt;If you are like me the reason you choose udemy as a leaning platform is
+bbecause of their insane discount on cources, but that serve nothing if you are
+from a country where data bundles cost are so high like in South Africa. You
+add up pay more to access the course online than the actual cost of the course.
+I wont even begin to mention the issue of slow network speed. One solution from
+this is to download the videos from your course and watch them offline, I am
+gonna show you just that.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
