@@ -24,5 +24,15 @@ this is to download the videos from your course and watch them offline, I am
 gonna show you just that.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Project 1 Tittle</title>
+      <link>/projects/project_1/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/project_1/</guid>
+      <description>Introduction This is a abstraction about project 1 that is comming soon, if you are here, you came too soon. anyway thank you for visiting my website
+One More Feature Etiam auctor, elit vel pretium consequat, orci magna aliquet dolor, quis varius felis purus ut elit. Sed ultrices feugiat blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut accumsan pulvinar purus et ornare. Vestibulum et tortor eget lacus hendrerit porttitor.</description>
+    </item>
+    
   </channel>
 </rss>
