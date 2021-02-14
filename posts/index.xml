@@ -24,24 +24,5 @@ this is to download the videos from your course and watch them offline, I am
 gonna show you just that.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Featured Image</title>
-      <link>/posts/2020/featured-image/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/2020/featured-image/</guid>
-      <description>&lt;p&gt;Maecenas maximus, elit in ornare porttitor, nisi eros hendrerit nisl, sed
-fermentum nulla urna blandit tellus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

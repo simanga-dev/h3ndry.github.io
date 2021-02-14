@@ -18,23 +18,5 @@
       <description>Self Introduction Welcome to my personal website. I&amp;rsquo;m a software engineer who is studying computer system Engineering at Tshwane University of Technology. Over the past 3 years I helped businesses to build their software, help them to reach millions of customers online. I have attendant many hackathons, I enjoy working with a team to build software that solves human problems. I met amazing software developers through hackathons and I believe when technology used right, it can reduce most of our problems, such as disease and poverty.</description>
     </item>
     
-    <item>
-      <title>Example Author</title>
-      <link>/authors/example-author/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/example-author/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo Authors</title>
-      <link>/authors/hugo-authors/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/hugo-authors/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

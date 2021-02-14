@@ -36,26 +36,6 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/example-author/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/2020/featured-image/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/image/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/project_1/</loc>
     <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url>
@@ -66,43 +46,15 @@
   </url>
   
   <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
     <loc>/series/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/themes/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/themes-guide/</loc>
-    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/hugo-authors/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
