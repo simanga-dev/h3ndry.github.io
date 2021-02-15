@@ -12,27 +12,37 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2021-01-29T00:23:34+00:00</lastmod>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/hendry-khoza/</loc>
-    <lastmod>2021-01-29T00:23:34+00:00</lastmod>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-01-29T00:23:34+00:00</lastmod>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/2021/how_to_download_udemy_videos/</loc>
-    <lastmod>2021-01-29T00:23:34+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2021-01-29T00:23:34+00:00</lastmod>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tutorials/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -51,10 +61,6 @@
   
   <url>
     <loc>/series/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>

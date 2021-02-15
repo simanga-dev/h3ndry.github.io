@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hendry&#39;s Website</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Hendry&#39;s Website</description>
+    <title>tutorials on Hendry&#39;s Website</title>
+    <link>/tags/tutorials/</link>
+    <description>Recent content in tutorials on Hendry&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.hendry.xyz/&#34;&gt;Hendry Khoza&lt;/a&gt; &lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 29 Jan 2021 00:23:34 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 00:23:34 +0000</lastBuildDate><atom:link href="/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Download Videos on Udemy Using youtube-dl</title>
       <link>/posts/2021/how_to_download_udemy_videos/</link>
