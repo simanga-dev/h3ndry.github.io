@@ -6,11 +6,11 @@
     <description>Recent content in Tags on HENDRY</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2021, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 00:23:34 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>development</title>
       <link>/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Jan 2021 00:23:34 +0000</pubDate>
       
       <guid>/tags/development/</guid>
       <description></description>
@@ -19,45 +19,27 @@
     <item>
       <title>go</title>
       <link>/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Jan 2021 00:23:34 +0000</pubDate>
       
       <guid>/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Fri, 29 Jan 2021 00:23:34 +0000</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>udemy</title>
+      <link>/tags/udemy/</link>
+      <pubDate>Fri, 29 Jan 2021 00:23:34 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>templates</title>
-      <link>/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/themes/</guid>
+      <guid>/tags/udemy/</guid>
       <description></description>
     </item>
     

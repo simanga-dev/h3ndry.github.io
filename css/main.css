@@ -184,6 +184,10 @@ h6 {
     opacity: 0.8;
 }
 
+.content.temp {
+    margin-top: 6rem;
+}
+
 .content .markdown {
     position: relative;
     font-size: 1.1em;
