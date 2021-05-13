@@ -341,7 +341,7 @@ h6 {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     html {
-        font-size: 0.8rem;
+        font-size: .9rem;
     }
 
     .content .meta,
