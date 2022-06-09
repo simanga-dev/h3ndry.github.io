@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-    import { Icon } from '$lib'
+	import { Icon } from '$lib';
 	let sidebarVisible = false;
 	let sidebar: HTMLElement;
 	let sidebarButton: SVGSVGElement;
@@ -33,8 +33,7 @@
 		</a>
 
 		<nav class="mobi">
-        
-        <!-- <Icon class="menu" name="menu" /> -->
+			<!-- <Icon class="menu" name="menu" /> -->
 
 			<svg
 				bind:this={sidebarButton}
@@ -50,35 +49,34 @@
 				</g>
 			</svg>
 
-
 			<aside class:visible={sidebarVisible} bind:this={sidebar}>
 				<ul>
 					<li class:active={$page.url.pathname === '/'} on:click={toggleSidebar}>
-						<a sveltekit:prefetch href="/">Posts</a>
+						<a sveltekit:prefetch href="/">Home</a>
 					</li>
 					<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
 						<a sveltekit:prefetch href="/projects">Projects</a>
 					</li>
-					<li class:active={$page.url.pathname === '/about'} on:click={toggleSidebar}>
-						<a sveltekit:prefetch href="/about">About</a>
+					<li class:active={$page.url.pathname === '/post'} on:click={toggleSidebar}>
+						<a sveltekit:prefetch href="/post">Blog</a>
 					</li>
 				</ul>
 			</aside>
 		</nav>
 		<nav class="desk">
 			<ul>
-				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Posts</a>
+				<li class:active={$page.url.pathname === '/'} on:click={toggleSidebar}>
+					<a sveltekit:prefetch href="/">Home</a>
 				</li>
-				<li class:active={$page.url.pathname === '/projects'}>
+				<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
 					<a sveltekit:prefetch href="/projects">Projects</a>
 				</li>
-				<li class:active={$page.url.pathname === '/about'}>
-					<a sveltekit:prefetch href="/about">About</a>
+				<li class:active={$page.url.pathname === '/posts'} on:click={toggleSidebar}>
+					<a sveltekit:prefetch href="/posts">Blog</a>
 				</li>
 			</ul>
 		</nav>
 	</div>
 </header>
 
-<style lang="scss" src="style.scss"></style>
+<style lang="scss" src="./style.scss"></style>

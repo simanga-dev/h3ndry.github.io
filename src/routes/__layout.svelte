@@ -1,11 +1,10 @@
 <script>
 	import "../app.scss";
+	import { Header } from '$lib';
     import { page } from '$app/stores';
 </script>
 
-<header>
-	<!-- <a href="/"><h1 class:small="{$page.url.pathname" !="=" ' '}>SvelteKit + MDsveX Blog</h1></a> -->
-</header>
+<Header />
 
 <main>
 	<slot></slot>
