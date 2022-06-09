@@ -1,6 +1,6 @@
 @use './mixins' as *;
 
-@import '@fontsource/fira-mono';
+// @import '@fontsource/fira-mono';
 
 // Sideload inter as a fallback font
 @font-face {
@@ -45,6 +45,7 @@
 
 body {
 	min-height: 100vh;
+    background-color: red;
 	margin: 0;
 	background-color: var(--primary-color);
 	color: var(--secondary-color);

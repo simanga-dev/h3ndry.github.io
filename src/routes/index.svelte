@@ -28,7 +28,7 @@
 <PageHead title="Home" description="Hello World" />
 
 <p>
- Hendry	This is a minimalistic example of a blog built with <a href="https://kit.svelte.dev">SvelteKit</a>
+ Hendry	This is a miimalistic example of a blog built with <a href="https://kit.svelte.dev">SvelteKit</a>
 	and <a href="https://mdsvex.com/">MDsveX</a>.
 	<a href="https://github.com/mvasigh/sveltekit-mdsvex-blog">View source code on Github.</a>
 </p>
