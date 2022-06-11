@@ -57,8 +57,8 @@
 					<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
 						<a sveltekit:prefetch href="/projects">Projects</a>
 					</li>
-					<li class:active={$page.url.pathname === '/post'} on:click={toggleSidebar}>
-						<a sveltekit:prefetch href="/post">Blog</a>
+					<li class:active={$page.url.pathname === '/blog'} on:click={toggleSidebar}>
+						<a sveltekit:prefetch href="/blog">Blog</a>
 					</li>
 				</ul>
 			</aside>
@@ -71,8 +71,8 @@
 				<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
 					<a sveltekit:prefetch href="/projects">Projects</a>
 				</li>
-				<li class:active={$page.url.pathname === '/posts'} on:click={toggleSidebar}>
-					<a sveltekit:prefetch href="/posts">Blog</a>
+				<li class:active={$page.url.pathname === '/blog'} on:click={toggleSidebar}>
+					<a sveltekit:prefetch href="/blog">Blog</a>
 				</li>
 			</ul>
 		</nav>

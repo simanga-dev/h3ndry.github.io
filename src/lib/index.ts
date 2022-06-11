@@ -1,4 +1,4 @@
-export  { default as  markdown2html } from './convert'
+// export  { default as  markdown2html } from './convert'
 export  { default as  Header } from './Header/Header.svelte'
 export  { default as  Line } from './Line/Line.svelte'
 export  { default as  Pagination } from './Pagination/Pagination.svelte'

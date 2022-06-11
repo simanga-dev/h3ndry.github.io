@@ -12,6 +12,7 @@ export async function get({ params }) {
 			match = [path, resolver];
 			break;
 		}
+
 	}
 
 	if (!match) {

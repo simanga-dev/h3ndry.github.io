@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: " "
+description: "I think I have figure it out, It now work"
 author: "Hendry Khoza"
 date: "2021-04-21"
 published: true

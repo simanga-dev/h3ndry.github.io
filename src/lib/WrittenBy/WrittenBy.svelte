@@ -19,7 +19,7 @@
 
 <style lang="scss">
 	.post-info {
-		font-family: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+		font-family: var(--font-family);
 		letter-spacing: 0.5px;
 		text-align: center;
 

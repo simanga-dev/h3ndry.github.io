@@ -40,7 +40,7 @@
 *:after,
 *:before {
 	box-sizing: border-box;
-	line-height: 1.5;
+	line-height: 1.2;
 }
 
 body {
@@ -89,11 +89,12 @@ footer {
 }
 
 p {
-	line-height: 1.5;
+	line-height: 1.2;
 	display: block;
 	text-align: justify;
 	font-family: var(--font-family);
 	/* word-break: break-all; */
+    margin: 0;
 }
 
 a {

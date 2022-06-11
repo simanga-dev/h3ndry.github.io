@@ -1,14 +1,18 @@
 ---
-title: "Yet another article"
+title: "Staying as the amazing blog you are"
 description: "I know, by now you've probably had enough, but this template looks more full with three posts, and here we are."
 author: "Mehdi Vasigh"
 date: "2021-05-05"
 published: true
 ---
 
+
+My favorite project of all time. I love the UI blah bal
+
 <script>
   import Counter from '$lib/components/Counter.svelte'
 </script>
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque orci nec facilisis iaculis. Sed accumsan placerat dolor. Donec sollicitudin nisi sit amet sodales molestie. Maecenas sit amet dolor nulla. Fusce sed elit et erat consequat dignissim. Nunc eu erat felis. Mauris pretium, arcu eu dapibus tempor, mauris eros tempor tortor, eu tincidunt erat libero sit amet mi. Phasellus eu libero mollis, finibus lacus eget, sollicitudin nulla.
 
