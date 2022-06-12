@@ -27,6 +27,7 @@
 	// console.log(date.getMonth(), date.getDate() )
 
 	let width = 4;
+
 	function handleMouseover() {
 		width = 8;
 	}
@@ -44,6 +45,7 @@
 	on:blur={handleMouseout}
 	on:mouseout={handleMouseout}
 >
+
 	<div class="post-card">
 		<time datetime={publishedAt}
 			>{` ${monthNames[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`}</time

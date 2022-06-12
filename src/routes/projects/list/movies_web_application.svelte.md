@@ -1,8 +1,9 @@
 ---
-title: "A second blog post"
-description: "The first blog post wasn't enough; I had to come back and write more about Svelte and SvelteKit."
-author: "Mehdi Vasigh"
-date: "2021-05-03"
+title: "Movies Web Application"
+description: "A movies web application that use the movie databases rest API to buetful display lates movies. The application is build with SvelteKi"
+author: "Hendry Khoza"
+date: "2021-05-05"
+thumbnail: "/static/images/carpentry.png"
 published: true
 ---
 

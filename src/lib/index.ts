@@ -1,5 +1,7 @@
 // export  { default as  markdown2html } from './convert'
 export  { default as  Header } from './Header/Header.svelte'
+export  { default as  Article } from './Article/Article.svelte'
+export  { default as  ProjectArticle } from './ProjectArticle/Article.svelte'
 export  { default as  Line } from './Line/Line.svelte'
 export  { default as  Pagination } from './Pagination/Pagination.svelte'
 export  { default as  PostCard } from './PostCard/PostCard.svelte'
