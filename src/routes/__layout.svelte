@@ -18,4 +18,9 @@
 
 <style global lang="scss">
 	@use 'src/styles/global';
+
+    footer p {
+        font-family: var(--font-mono);
+        font-size: 1rem ;
+        }
 </style>

@@ -3,7 +3,7 @@ title: "Movies Web Application"
 description: "A movies web application that use the movie databases rest API to buetful display lates movies. The application is build with SvelteKi"
 author: "Hendry Khoza"
 date: "2021-05-05"
-thumbnail: "/static/images/carpentry.png"
+thumbnail: "/static/images/umovies.png"
 published: true
 ---
 

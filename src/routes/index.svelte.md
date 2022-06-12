@@ -12,8 +12,9 @@ published: true
 
 <style>
 h1 {
-	margin-bottom: 0;
+	margin: 0;
 }
+
 
 center {
 	margin-bottom: 3.5rem;
@@ -25,6 +26,14 @@ center {
 	text-align: center;
 	padding: 0;
 }
+
+@media (min-width: 490px) {
+h1 {
+	margin-bottom: 0;
+}
+}
+
+
 
 </style>
 
