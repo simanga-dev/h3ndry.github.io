@@ -39,7 +39,7 @@ time {
 	font-family: var(--font-mono);
 	font-size: 1.8rem;
 	font-weight: 700;
-	margin: 0.5rem 0px;
+	margin: 0px;
 }
 
 .description {
@@ -79,7 +79,7 @@ time {
     .read-more{
         grid-column: 2 / -1;
         grid-row: 3 / 4;
-        align-self: end;
+        align-self: center;
         line-height: 1;
 
     }

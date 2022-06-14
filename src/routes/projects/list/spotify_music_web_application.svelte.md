@@ -1,6 +1,6 @@
 ---
-title: "Spotify Music Web Application"
-description: "A web application that I built for my causing who is a muscian"
+title: "A Musician Website (Spotify REST API) "
+description: "A musician website built with SvelteKit consuming the spotify REST API to play top song of the artis"
 author: "Hendry Khoza"
 date: "2021-05-03"
 thumbnail: "/static/images/magibela.png"
