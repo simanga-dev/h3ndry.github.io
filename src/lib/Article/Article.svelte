@@ -6,11 +6,6 @@
 	export let slug: string;
 	export let date: string;
 
-	// export let updatedAt: string;
-	// export let content: string;
-
-	// console.log(date.getMonth(), date.getDate() )
-
 	let width = 4;
 
 	function handleMouseover() {
@@ -21,7 +16,6 @@
 		width = 4;
 	}
 </script>
-
 
 <a
 	class="wraper-link"
@@ -36,7 +30,7 @@
 		<Line {width} />
 		<p>{description}</p>
 
-        <a href={`/blog/posts/${slug}`}>Read More &rarr;</a>
+        <a class="read-more" href={`/blog/posts/${slug}`}>Read More &rarr;</a>
   <!-- <slot /> -->
 </a>
 
@@ -45,7 +39,7 @@
 	display: block;
 	color: inherit;
 	text-decoration: none;
-	padding: 1.785rem 0;
+	padding: 1.5rem 0;
 	border-bottom: solid 1px rgb(255 255 255 / 10%);
 }
 
@@ -61,5 +55,10 @@ p {
 	font-weight: 700;
 	margin: 0.5rem 0px;
 }
+
+.read-more {
+    display: block;
+    padding-top: .8rem;
+    }
 
 </style>
