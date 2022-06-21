@@ -7,28 +7,39 @@ thumbnail: "/static/images/magibela.png"
 published: true
 ---
 
-<script>
-  import Counter from '$lib/components/Counter.svelte'
-</script>
+I built MaGibile's website with beautiy and elegance in mind. I wanted to make the
+artist haapy when they see their site. The Design is expired by one of the desiner at
+uplabs, I forget his user details, I will update this ehwn I remember. The artist 
+metion to me that red is his favorite color, so I deliverd.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque orci nec facilisis iaculis. Sed accumsan placerat dolor. Donec sollicitudin nisi sit amet sodales molestie. Maecenas sit amet dolor nulla. Fusce sed elit et erat consequat dignissim. Nunc eu erat felis. Mauris pretium, arcu eu dapibus tempor, mauris eros tempor tortor, eu tincidunt erat libero sit amet mi. Phasellus eu libero mollis, finibus lacus eget, sollicitudin nulla.
 
-Here's a random Svelte component thrown into my MDsveX markdown:
+### Features
 
-<Counter />
+- On the homepage of the webiste, you can play top song of the artist. This is archived by
+calling the Spotify Rest API. In addition to that, I have nice visual to show progress
+of the current playing song
+- Fully responsive, The webiste adjust to small screen size such as mobile devices, which come in 
+handy since the boomer generation spend to much time on their phone.
+- The website also have a functional working contact form that let you contact the artist for 
+booking information
 
-### Heading
+### Tech Stack
 
-*In lectus erat*, maximus sed **pulvinar** eu, elementum vehicula mi. Maecenas nec dui urna. Nunc at magna purus. Cras facilisis, purus in dignissim egestas, ante ligula malesuada leo, quis malesuada dolor tortor vitae mauris. Morbi auctor mauris nibh, ut sodales tortor volutpat in. Donec aliquet ex eget ullamcorper semper. Proin vel libero at nulla gravida blandit. Maecenas odio massa, pretium blandit lectus ac, vehicula ultrices justo. Suspendisse libero dolor, tristique quis laoreet vel, placerat vel nisl. Nunc et venenatis nunc, vitae fringilla risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus consectetur pellentesque ipsum, in hendrerit lectus ultricies quis. Morbi ultrices, elit nec lacinia vulputate, dolor nibh commodo justo, quis dictum nisi nulla vel mi.
+The Technology I used to develop this beautifuj website is SvelteKit (The NextJs of Svelte)
+I like this framework, because of how they aproch the frontend development, Compiling everything
+to javascript is much more faster that the idear of virtual dom. The framwork fell fast on my old
+thinkpad laptop unlike react that freeze often. Hot reaload is quick, thanks to vite
 
-- List one
-- List two
-- Another list
+I don't mind CSS, but whenever I can, I use SCSS or SASS. It is what I used for this project
+the, the diffrence is minor now since CSS support varialble now but the Killer feacture for
+SCSS if having nested style. I think it is also easy to share style between project with 
+SCSS 
 
-In lectus erat, maximus sed pulvinar eu, elementum vehicula mi. Maecenas nec dui urna. Nunc at magna purus. Cras facilisis, purus in dignissim egestas, ante ligula malesuada leo, quis malesuada dolor tortor vitae mauris. Morbi auctor mauris nibh, ut sodales tortor volutpat in. Donec aliquet ex eget ullamcorper semper. Proin vel libero at nulla gravida blandit. Maecenas odio massa, pretium blandit lectus ac, vehicula ultrices justo. Suspendisse libero dolor, tristique quis laoreet vel, placerat vel nisl. Nunc et venenatis nunc, vitae fringilla risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus consectetur pellentesque ipsum, in hendrerit lectus ultricies quis. Morbi ultrices, elit nec lacinia vulputate, dolor nibh commodo justo, quis dictum nisi nulla vel mi.
+### Hosting
 
-### Heading
+Simple and straight forward. I use netlify.
 
-Nullam nisl risus, pellentesque at enim id, molestie tristique purus. Aliquam ultricies, sem eu rutrum posuere, augue libero commodo nisi, et aliquam massa mi vitae nunc. In sodales, lorem vitae pellentesque lacinia, est velit condimentum orci, in vestibulum lorem est eget nisi. Quisque varius eget risus mattis rutrum. Sed tellus nisl, egestas a ligula et, finibus sollicitudin mauris. Ut sit amet scelerisque purus, luctus auctor leo. Nullam enim velit, tincidunt sed venenatis non, fringilla ut lacus. Morbi diam nulla, luctus non orci at, maximus rhoncus est.
 
-Ut quis leo rhoncus, aliquet sapien at, venenatis lectus. Nunc mattis vestibulum sapien. Donec quis vestibulum ex. Vivamus condimentum dui gravida pulvinar feugiat. Duis posuere, lacus eu cursus gravida, magna ex lobortis sapien, non finibus orci justo at orci. Nulla sit amet ligula a lorem aliquam consequat. Sed vehicula lacus nec ipsum efficitur, vel volutpat sem blandit. Curabitur nunc nunc, commodo sed ultrices id, dignissim ac orci. Nunc semper lectus et orci faucibus, et suscipit nisl consequat. Phasellus malesuada nisl a risus ultricies, vitae pretium libero vulputate. Nullam at neque ut enim mattis dapibus porttitor vitae dui. Cras erat libero, porta a eros ac, tempus consectetur est.
+#### Link, Source
+- Github Repo
+- Live Link
