@@ -1,5 +1,5 @@
 ---
-title: "A Musician Website (Spotify REST API) "
+title: "A Musician Website (Spotify REST API)"
 description: "A musician website built with SvelteKit consuming the spotify REST API to play top song of the artis"
 author: "Hendry Khoza"
 date: "2021-05-03"
