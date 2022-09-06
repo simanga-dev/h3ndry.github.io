@@ -27,6 +27,7 @@
 
 <PageHead title="Blog" description="Hendry blog post, I share my thought and everything that is heppenng in my programming jouner" />
 
+
 <!-- <p> -->
 <!--  Hendry	This is a miimalistic example of a blog built with <a href="https://kit.svelte.dev">SvelteKit</a> -->
 <!-- 	and <a href="https://mdsvex.com/">MDsveX</a>. -->
@@ -34,13 +35,7 @@
 <!-- </p> -->
 
 {#each posts as { slug, title, author, description, date }}
-
-	<Article {slug} {title} {description} {date}>
-		<ArticleTitle {slug} {title} />
-		<ArticleMeta {author} {date} />
-		<ArticleDescription {description} {slug} />
-	</Article>
-
+	<Article {slug} {title} {description} {date} />
 {/each}
 
 <slot />

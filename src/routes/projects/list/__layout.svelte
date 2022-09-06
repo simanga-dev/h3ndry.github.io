@@ -31,8 +31,7 @@
 <PageHead title={post.title} description={post.description} />
 
 <h1 class="post-title">{post.title}</h1>
-<!-- <ArticleTitle title={post.title} /> -->
-<!-- <ArticleMeta author={post.author} date={post.date} /> -->
+
 <center>
 	<Line width={5.5} />
 </center>

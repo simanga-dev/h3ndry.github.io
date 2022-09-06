@@ -54,7 +54,7 @@ Programming, and database design principles.
 
 During my final year at university, I discovered the world of open-source. I
 couldn't believe that the university did not teach us about this anyway my
-favorite open source project is [ Libre Office ](https://www.libreoffice.org/),
+favorite open source project is [ LibreOffice ](https://www.libreoffice.org/),
 [ Inkscape ](https://inkscape.org/), [ Gimp ](https://www.gimp.org/), and [
 Neovim ](https://neovim.io/). One of my goals is to contribute my skill to most
 of those projects. I remember when I started using Linux. I felt a sense of

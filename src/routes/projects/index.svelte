@@ -28,11 +28,7 @@
 <PageHead title="Project" description="List of projece" />
 
 {#each posts as { slug, title, author, description, thumbnail }}
-	<ProjectArticle {thumbnail} {title} {slug} {description} >
-		<ArticleTitle {slug} {title} />
-		<!-- <ArticleMeta {author} {date} /> -->
-		<ArticleDescription {description} {slug} />
-	</ProjectArticle>
+	<ProjectArticle {thumbnail} {title} {slug} {description} />
 {/each}
 
 <!-- <slot /> -->

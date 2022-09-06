@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Icon, Button } from '$lib';
 	export let title: string;
-	export let publishedAt: string;
 	export let description: string;
 	export let slug: string;
 	export let thumbnail: string;
