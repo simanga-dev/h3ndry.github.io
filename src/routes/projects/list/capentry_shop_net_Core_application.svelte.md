@@ -3,26 +3,49 @@ title: "Carpentry Shop Net Core application"
 description: "A fullstak web application built with .Net core framework using SQlite database for simplicity"
 author: "Hendry Khoza"
 date: "2021-04-21"
-thumbnail: "static/images/carpentry.png"
+thumbnail: "/static/images/carpentry.png"
 published: true
 ---
 
-<script>
-  import Counter from '$lib/components/Counter.svelte'
-</script>
+*This project is one of my favorites application I have developed and
+I am proud of it*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pellentesque orci nec facilisis iaculis. Sed accumsan placerat dolor. Donec sollicitudin nisi sit amet sodales molestie. Maecenas sit amet dolor nulla. Fusce sed elit et erat consequat dignissim. Nunc eu erat felis. Mauris pretium, arcu eu dapibus tempor, mauris eros tempor tortor, eu tincidunt erat libero sit amet mi. Phasellus eu libero mollis, finibus lacus eget, sollicitudin nulla.
 
-Here's a random Svelte component thrown into my MDsveX markdown:
+###
 
-<Counter />
+Carpetry Shop is my favourite .Net applicatin  I have build, Is a
+complete fullstack application with databbase, Authetication and
+elegant design. I have used Linode to host the applicaton on a
+Ubuntu Server
 
-## Example heading
 
-In lectus erat, maximus sed pulvinar eu, elementum vehicula mi. Maecenas nec dui urna. Nunc at magna purus. Cras facilisis, purus in dignissim egestas, ante ligula malesuada leo, quis malesuada dolor tortor vitae mauris. Morbi auctor mauris nibh, ut sodales tortor volutpat in. Donec aliquet ex eget ullamcorper semper. Proin vel libero at nulla gravida blandit. Maecenas odio massa, pretium blandit lectus ac, vehicula ultrices justo. Suspendisse libero dolor, tristique quis laoreet vel, placerat vel nisl. Nunc et venenatis nunc, vitae fringilla risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus consectetur pellentesque ipsum, in hendrerit lectus ultricies quis. Morbi ultrices, elit nec lacinia vulputate, dolor nibh commodo justo, quis dictum nisi nulla vel mi.
+### Entity Framework
 
-## Another example heading
+To intergrate with the databse I use EF core which is a recomended by
+Microsoft when using .Net Core. Entity framwrok core is a moredern object-databbase
+mapper for .NET, It Support LINQ queries, Changes, tracking, update and schema
+migration
 
-Nullam nisl risus, pellentesque at enim id, molestie tristique purus. Aliquam ultricies, sem eu rutrum posuere, augue libero commodo nisi, et aliquam massa mi vitae nunc. In sodales, lorem vitae pellentesque lacinia, est velit condimentum orci, in vestibulum lorem est eget nisi. Quisque varius eget risus mattis rutrum. Sed tellus nisl, egestas a ligula et, finibus sollicitudin mauris. Ut sit amet scelerisque purus, luctus auctor leo. Nullam enim velit, tincidunt sed venenatis non, fringilla ut lacus. Morbi diam nulla, luctus non orci at, maximus rhoncus est.
+The nice thing with EF Core is that it works with many database on the
+project I am using it works with postgress database
 
-Ut quis leo rhoncus, aliquet sapien at, venenatis lectus. Nunc mattis vestibulum sapien. Donec quis vestibulum ex. Vivamus condimentum dui gravida pulvinar feugiat. Duis posuere, lacus eu cursus gravida, magna ex lobortis sapien, non finibus orci justo at orci. Nulla sit amet ligula a lorem aliquam consequat. Sed vehicula lacus nec ipsum efficitur, vel volutpat sem blandit. Curabitur nunc nunc, commodo sed ultrices id, dignissim ac orci. Nunc semper lectus et orci faucibus, et suscipit nisl consequat. Phasellus malesuada nisl a risus ultricies, vitae pretium libero vulputate. Nullam at neque ut enim mattis dapibus porttitor vitae dui. Cras erat libero, porta a eros ac, tempus consectetur est.
+### Design and Styles
+
+The design of the web application is styled using  the Semantic UI. I have
+enjoy working with UI libray. It makes buildings beautiful website easy
+
+What I enjoy the most with this UI libray is the way easy it is to overwrite
+the style without overhead
+
+
+### Deploy and Hosting
+
+I love Linuxx, So it is not a suprice that I hosted this web application on a linux
+Sever application on. On a Linux sever The challenging part was to configure apache
+server to work together. I do not have problem with azure just that is so expensive
+for a Linode Sever I am paying R90 for this sever per month which is much less
+that what I would have pay if I am with Azure
+
+### Deploy and Hosting
+I respect Microsto for making .Net open sourche. I will continues usin the
+.Net core for building more personla web application

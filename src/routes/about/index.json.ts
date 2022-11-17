@@ -9,7 +9,7 @@ export async function get({ params }) {
     params.slug = 'about'
     let match;
     for (const [path, resolver] of Object.entries(modules)) {
-        console.log(resolver,path)
+        console.log(resolver, path)
         if (slugFromPath(path) === params.slug) {
             match = [path, resolver];
             break;
