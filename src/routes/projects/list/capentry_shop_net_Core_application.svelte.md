@@ -1,15 +1,15 @@
 ---
-title: "Carpentry Shop Net Core application"
-description: "A fullstak web application built with .Net core framework using SQlite database for simplicity"
+title: "Carpentry Shop - Net Core Web Application"
+description: "A full-stack web application built with .Net core framework with SQlite database for simplicity. The application allows users to order carpentry online and notify them when ready to collect"
 author: "Hendry Khoza"
 date: "2021-04-21"
 thumbnail: "/static/images/carpentry.png"
 published: true
 ---
 
-*This project is one of my favorites application I have developed and
-I am proud of it*
 
+*if you would like to visit a live demo of the application visit the the
+follwoing link [ 178.79.147.9:50 ]( 178.79.147.9:50). username: admin@localhost.com, password: P@$$w0r1d*
 
 ###
 
