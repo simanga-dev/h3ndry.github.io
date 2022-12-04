@@ -19,6 +19,10 @@ elegant design. I have used Linode to host the applicaton on a
 Ubuntu Server
 
 
+### Features
+ *
+
+
 ### Entity Framework
 
 To intergrate with the databse I use EF core which is a recomended by
@@ -30,6 +34,13 @@ The nice thing with EF Core is that it works with many database on the
 project I am using it works with postgress database
 
 ### Design and Styles
+
+* The application has ability to send email when a capentry has been added to
+  the order
+* Full autheticaton flow using email and using password
+* Request as many many capentry as posible since the is no limit
+* Validate the input from when a user enter the value
+* Date pickelovemr
 
 The design of the web application is styled using  the Semantic UI. I have
 enjoy working with UI libray. It makes buildings beautiful website easy
