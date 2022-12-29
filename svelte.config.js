@@ -25,20 +25,27 @@ const config = {
             onError: 'continue'
         },
 
-        vite: {
-            css: {
-                preprocessorOptions: {
-                    scss: {
-                        additionalData: '@use "src/variables.scss" as *;'
-                    }
+        paths: {
+            // change below to your repo name
+            base: dev ? "" : "site",
+        },
+        // hydrate the <div id="svelte"> element in src/app.html
+        target: "#svelte"
+    },
+
+    vite: {
+        css: {
+            preprocessorOptions: {
+                scss: {
+                    additionalData: '@use "src/variables.scss" as *;'
                 }
-            },
-            server: {
-                fs: {
-                    // Allow serving files from one level up to the project root
-                    allow: ['.'],
-                },
             }
+        },
+        server: {
+            fs: {
+                // Allow serving files from one level up to the project root
+                allow: ['.'],
+            },
         }
     }
 };
