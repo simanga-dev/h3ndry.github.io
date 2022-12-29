@@ -14,6 +14,7 @@
 		"@rollup/plugin-commonjs": "22.0.2",
 		"@rollup/plugin-node-resolve": "14.1.0",
 		"@rollup/plugin-typescript": "8.5.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@tsconfig/svelte": "3.0.0",
