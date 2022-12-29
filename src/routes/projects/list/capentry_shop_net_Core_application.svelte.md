@@ -9,7 +9,7 @@ published: true
 
 
 *You can view a live demo of the application by following this link
-[178.79.147.9:50](178.79.147.9:50). username: **admin@localhost.com**, password: **P@$$w0r1d**.*
+[178.79.147.9:50](http://178.79.147.9:50/). username: **admin@localhost.com**, password: **P@$$w0r1d**.*
 
 ###
 

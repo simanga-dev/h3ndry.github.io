@@ -3,7 +3,7 @@ title: "Staying as the amazing blog you are"
 description: "I know, by now you've probably had enough, but this template looks more full with three posts, and here we are."
 author: "Hendry"
 date: "20 May 2021"
-published: true
+published: false
 ---
 
 
