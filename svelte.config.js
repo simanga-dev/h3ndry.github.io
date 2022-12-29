@@ -17,20 +17,17 @@ const config = {
     kit: {
         // hydrate the <div id="svelte"> element in src/app.html
         adapter: adapter({
-            pages: "docs",
-            assets: "docs"
+            pages: "public",
+            assets: "public"
         }),
 
         prerender: {
             onError: 'continue'
         },
-
         paths: {
             // change below to your repo name
-            base: dev ? "" : "site",
+            base: "",
         },
-        // hydrate the <div id="svelte"> element in src/app.html
-        target: "#svelte"
     },
 
     vite: {
