@@ -1,9 +1,5 @@
-other-doc
-resume/images
-resume/sh_khoza_resume.log
-resume/sh_khoza_resume.aux
-resume/sh_khoza_resume.tex
-resume/sh_khoza_resume.out
-resume/resume.cls
-resume/x.log
-
+.DS_Store
+node_modules
+/.svelte-kit
+/build
+/functions

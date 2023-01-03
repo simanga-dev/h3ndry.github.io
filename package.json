@@ -1,0 +1,37 @@
+{
+	"name": "sveltekit-mdsvex-blog",
+	"version": "0.0.1",
+	"author": "Mehdi Vasigh <mehdi.vasigh@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"lint": "prettier --check --plugin-search-dir=. .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "22.0.2",
+		"@rollup/plugin-node-resolve": "14.1.0",
+		"@rollup/plugin-typescript": "8.5.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.88",
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/kit": "^1.0.0-next.350",
+		"@tsconfig/svelte": "3.0.0",
+		"mdsvex": "^0.10.6",
+		"prettier": "~2.7.1",
+		"prettier-plugin-svelte": "^2.7.1",
+		"rehype-autolink-headings": "^6.1.1",
+		"rehype-slug": "^5.0.1",
+		"remark-abbr": "^1.4.1",
+		"remark-github": "^11.2.4",
+		"rollup": "2.79.1",
+		"rollup-plugin-svelte": "7.1.0",
+		"sass": "^1.55.0",
+		"svelte": "3.50.1",
+		"svelte-preprocess": "4.10.7",
+		"tslib": "2.4.0",
+		"typescript": "4.8.4"
+	},
+	"type": "module"
+}

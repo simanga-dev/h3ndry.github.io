@@ -1,0 +1,19 @@
+.pagination {
+	display: flex;
+	padding: 2rem 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn-prev,
+.btn-next {
+	cursor: pointer;
+	display: inline-block;
+	padding: 8px 15px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	margin: 0;
+}
+.page-number {
+	margin: 0;
+	padding: 10px;
+}
