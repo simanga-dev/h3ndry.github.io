@@ -1,1 +1,0 @@
-export const samora = "Said I should rename this file"
