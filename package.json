@@ -1,9 +1,10 @@
 {
-  "name": "my-app",
+  "name": "static-personal-website",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "clean": "rm -rv build node_modules .svelte-kit",
     "preview": "vite preview",
     "test": "playwright test",
     "deploy": "touch build/.nojekyll && gh-pages -d build -t true",
@@ -20,7 +21,9 @@
     "@sveltejs/adapter-auto": "^1.0.0",
     "@sveltejs/kit": "^1.0.0",
     "@types/cookie": "^0.5.1",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.8.0",
+    "@sveltejs/adapter-static": "^1.0.0",
     "prettier-plugin-svelte": "^2.8.1",
     "svelte": "^3.54.0",
     "svelte-check": "^2.9.2",
@@ -29,5 +32,7 @@
     "vite": "^4.0.0",
     "vitest": "^0.25.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+  }
 }
