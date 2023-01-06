@@ -1,53 +1,26 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+	import "../app.scss";
+	import { Header } from '$lib';
+    import { page } from '$app/stores';
 </script>
 
-<div class="app">
-	<Header />
+<Header />
 
-	<main>
-		<slot />
-	</main>
+<main>
+	<slot></slot>
+</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
-</div>
+<footer>
+	<p>
+		Copyright &#xA9; <a href="https://twitter.com/3h3ndry">Hendry Khoza</a>, {new Date().getFullYear()}
+	</p>
+</footer>
 
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
+<style global lang="scss">
+	@use 'src/styles/global';
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
+    footer p {
+        font-family: var(--font-mono);
+        font-size: 1rem ;
+        }
 </style>
