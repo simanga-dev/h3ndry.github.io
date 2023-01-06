@@ -153,3 +153,8 @@ aside ul li.active {
 		display: block;
 	}
 }
+
+.temp-disable {
+    pointer-events: none;
+    opacity: 20%;
+}

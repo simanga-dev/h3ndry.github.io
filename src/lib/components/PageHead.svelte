@@ -1,6 +1,6 @@
-<script>
-	export let title;
-	export let description;
+<script lang="ts">
+	export let title: string;
+	export let description: string;
 
 	const siteTitle = 'Hendry Khoza\'s Site';
 	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;

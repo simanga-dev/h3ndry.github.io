@@ -41,6 +41,7 @@
 				xml:space="preserve"
 				viewBox="0 0 500 500"
 				on:click={toggleSidebar}
+				on:keyup={toggleSidebar}
 				class:active={sidebarVisible}
 			>
 				<g transform="matrix(1.3333333,0,0,-1.3333333,-66.326109,633.05707)">
@@ -52,28 +53,52 @@
 
 			<aside class:visible={sidebarVisible} bind:this={sidebar}>
 				<ul>
-					<li class:active={$page.url.pathname === '/'} on:click={toggleSidebar}>
+					<li
+						class:active={$page.url.pathname === '/'}
+						on:keyup={toggleSidebar}
+						on:click={toggleSidebar}
+					>
 						<a sveltekit:prefetch href="{base}/">Home</a>
 					</li>
-					<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
-						<a sveltekit:prefetch href="{base}/projects">Projects</a>
+					<li
+						class:active={$page.url.pathname === '/projects'}
+						on:keyup={toggleSidebar}
+						on:click={toggleSidebar}
+					>
+						<a sveltekit:prefetch class="temp-disable" href="{base}/projects">Projects</a>
 					</li>
-					<li class:active={$page.url.pathname === '/blog'} on:click={toggleSidebar}>
-						<a sveltekit:prefetch href="{base}/blog">Blog</a>
+					<li
+						class:active={$page.url.pathname === '/blog'}
+						on:keyup={toggleSidebar}
+						on:click={toggleSidebar}
+					>
+						<a sveltekit:prefetch class="temp-disable" href="{base}/blog">Blog</a>
 					</li>
 				</ul>
 			</aside>
 		</nav>
 		<nav class="desk">
 			<ul>
-				<li class:active={$page.url.pathname === '/'} on:click={toggleSidebar}>
+				<li
+					class:active={$page.url.pathname === '/'}
+					on:keyup={toggleSidebar}
+					on:click={toggleSidebar}
+				>
 					<a sveltekit:prefetch href="{base}/">Home</a>
 				</li>
-				<li class:active={$page.url.pathname === '/projects'} on:click={toggleSidebar}>
-					<a sveltekit:prefetch href="{base}/projects">Projects</a>
+				<li
+					class:active={$page.url.pathname === '/projects'}
+					on:keyup={toggleSidebar}
+					on:click={toggleSidebar}
+				>
+					<a sveltekit:prefetch class="temp-disable" href="{base}/projects">Projects</a>
 				</li>
-				<li class:active={$page.url.pathname === '/blog'} on:click={toggleSidebar}>
-					<a sveltekit:prefetch href="{base}/blog">Blog</a>
+				<li
+					class:active={$page.url.pathname === '/blog'}
+					on:keyup={toggleSidebar}
+					on:click={toggleSidebar}
+				>
+					<a sveltekit:prefetch class="temp-disable" href="{base}/blog">Blog</a>
 				</li>
 			</ul>
 		</nav>

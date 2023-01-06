@@ -8,6 +8,7 @@ published: true
 
 <script lang="ts">
 	import { Line, WrittenBy   } from '$lib';
+	import PageHead from '$lib/components/PageHead.svelte';
 </script>
 
 <style>
@@ -36,6 +37,8 @@ hr {
 }
 </style>
 
+
+<PageHead title="Home" description="A litle more information about me" />
 
 <WrittenBy name="Hendry" date="" />
 <h1 class="post-title">About</h1>
