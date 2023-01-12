@@ -65,7 +65,7 @@
 						on:keyup={toggleSidebar}
 						on:click={toggleSidebar}
 					>
-						<a sveltekit:prefetch class="temp-disable" href="{base}/projects">Projects</a>
+						<a sveltekit:prefetch href="{base}/projects">Projects</a>
 					</li>
 					<li
 						class:active={$page.url.pathname === '/blog'}
@@ -91,7 +91,7 @@
 					on:keyup={toggleSidebar}
 					on:click={toggleSidebar}
 				>
-					<a sveltekit:prefetch class="temp-disable" href="{base}/projects">Projects</a>
+					<a sveltekit:prefetch href="{base}/projects">Projects</a>
 				</li>
 				<li
 					class:active={$page.url.pathname === '/blog'}

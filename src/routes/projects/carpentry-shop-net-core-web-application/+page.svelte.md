@@ -7,6 +7,34 @@ thumbnail: "/static/images/carpentry.png"
 published: true
 ---
 
+<script>
+	import PageHead from '$lib/components/PageHead.svelte';
+	import { Line,ImageWrapper } from '$lib';
+	import ArticleMeta from '$lib/components/ArticleMeta.svelte';
+
+</script>
+
+<style lang="scss">
+	h1 {
+		font-family: var(--font-mono);
+		font-size: 3rem;
+		margin: 0rem;
+	}
+</style>
+
+
+<PageHead title="Carpentry Shop - Net Core Web Application" description="Carpentry Shop is a full-stack web application built with a .Net core framework and SQLite database. The application allows users to order carpentry online and notify them when ready to collect." />
+
+<h1 class="post-title">Carpentry Shop - Net Core Web Application</h1>
+
+<center>
+	<Line width={5.5} />
+</center>
+
+<ImageWrapper img_url="/img/carpentry.png"  alt="Thubnaim for - Carpentry Shop - Net Core Web Application"  />
+
+<slot />
+
 
 *You can view a live demo of the application by following this link
 [178.79.147.9:50](http://178.79.147.9:50/). username: **admin@localhost.com**, password: **P@$$w0r1d**.*

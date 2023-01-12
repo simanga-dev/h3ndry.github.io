@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Carpentry Shop - Net Core Web Application",
+    "slug": "carpentry-shop-net-core-web-application",
+    "description": "Carpentry Shop is a full-stack web application built with a .Net core framework and SQLite database. The application allows users to order carpentry online and notify them when ready to collect.",
+    "author": "Hendry Khoza",
+    "date": "2021-04-21",
+    "thumbnail": "carpentry.png",
+    "published": true
+  }
+]

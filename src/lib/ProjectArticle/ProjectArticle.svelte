@@ -9,16 +9,16 @@
 <div class="wraper">
 
 	<div class="img">
-		<img src={thumbnail} alt="Thubnaim for - {title}" />
+		<img src="/img/{thumbnail}" alt="Thubnaim for - {title}" />
 	</div>
 
-	<h1 class="title"><a href={`/projects/list/${slug}`}> {title}</a></h1>
+	<h1 class="title"><a href={`/projects/${slug}`}> {title}</a></h1>
 
 	<p class="description">
 		{description}
 	</p>
 
-	<a class="read-more" href={`/projects/list/${slug}`}>Read More &rarr;</a>
+	<a class="read-more" href={`/projects/${slug}`}>Read More &rarr;</a>
 
 </div>
 
