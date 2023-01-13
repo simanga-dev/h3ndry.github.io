@@ -19,18 +19,18 @@
 
 <a
 	class="wraper-link"
-	href={`/blog/posts/${slug}`}
+	href={`/blog/${slug}`}
 	on:focus={handleMouseover}
 	on:mouseover={handleMouseover}
 	on:blur={handleMouseout}
 	on:mouseout={handleMouseout}
 >
 		<time datetime={date} >{date}</time>
-		<h1 class="title"> <a href={`/blog/posts/${slug}`}> {title}</a> </h1>
+		<h1 class="title"> <a href={`/blog/${slug}`}> {title}</a> </h1>
 		<Line {width} />
 		<p>{description}</p>
 
-        <a class="read-more" href={`/blog/posts/${slug}`}>Read More &rarr;</a>
+        <a class="read-more" href={`/blog/${slug}`}>Read More &rarr;</a>
   <!-- <slot /> -->
 </a>
 

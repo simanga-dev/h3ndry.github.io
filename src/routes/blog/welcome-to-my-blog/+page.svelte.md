@@ -1,10 +1,50 @@
 ---
 title: "Welcome to my blog!"
 description: "I love writing about Svelte and all the cool things you can build with it. The website is built with Svelte and Markdown."
-author: "Mehdi Vasigh"
+author: "Hendry Khoza"
 date: "2021-04-21"
 published: true
 ---
+
+<style lang="scss">
+	h1 {
+		font-family: var(--font-mono);
+		font-size: 2rem;
+		margin: 0rem;
+	}
+	center {
+		margin-bottom: 2rem;
+	}
+
+	@media (min-width: 720px) {
+		h1 {
+			font-size: 2.4rem;
+			font-size: 3.5rem;
+            padding-top: 4px;
+            line-height: 1;
+			margin: 0;
+		}
+		center {
+			margin-bottom: 4rem;
+		}
+	}
+</style>
+
+<script>
+	import PageHead from '$lib/components/PageHead.svelte';
+	import { WrittenBy, Line } from '$lib';
+</script>
+
+
+<PageHead title="Welcome to my blog!" description="I love writing about Svelte and all the cool things you can build with it. The website is built with Svelte and Markdown." />
+
+<WrittenBy name="Hendry Khoza" date="2021-04-21" />
+<h1 class="post-title">Welcome to my blog!</h1>
+<center>
+	<Line width={5.5} />
+</center>
+
+
 
 I developed a new personal website from scratch. It is fast, straightforward
 and built using the latest technology. I plan to add a newsletter and comment

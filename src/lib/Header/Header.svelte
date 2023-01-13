@@ -72,7 +72,7 @@
 						on:keyup={toggleSidebar}
 						on:click={toggleSidebar}
 					>
-						<a sveltekit:prefetch class="temp-disable" href="{base}/blog">Blog</a>
+						<a sveltekit:prefetch href="{base}/blog">Blog</a>
 					</li>
 				</ul>
 			</aside>
@@ -98,7 +98,7 @@
 					on:keyup={toggleSidebar}
 					on:click={toggleSidebar}
 				>
-					<a sveltekit:prefetch class="temp-disable" href="{base}/blog">Blog</a>
+					<a sveltekit:prefetch href="{base}/blog">Blog</a>
 				</li>
 			</ul>
 		</nav>

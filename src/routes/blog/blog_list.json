@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Welcome to my blog!",
+    "slug": "welcome-to-my-blog",
+    "description": "I love writing about Svelte and all the cool things you can build with it. The website is built with Svelte and Markdown.",
+    "author": "Mehdi Vasigh",
+    "date": "2021-04-21",
+    "published": true
+  }
+]
