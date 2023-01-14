@@ -70,7 +70,7 @@ an operating system that you can customise to whatever you like.
 Open-source software has taught me much about computers, specifically the
 [Suckless](https://dwm.suckless.org/) organisation. A window Manager is one of the software you interact
 with every time you use your computers. Customising it however you want makes
-your computer feel yours. I spent a lot of time reading and editing the [DWM](https://dwm.suckless.org/dwm)
+your computer feel yours. I spent a lot of time reading and editing the [DWM](https://dwm.suckless.org/)
 source code. It was worthwhile. I am also motivated to build Linux from scratch
 just for learning purposes.
 
